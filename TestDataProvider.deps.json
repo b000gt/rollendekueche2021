@@ -1,0 +1,1353 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestDataProvider/1.0.0": {
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "Launcher": "1.0.0",
+          "TestData": "1.0.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.18362.19"
+        },
+        "runtime": {
+          "TestDataProvider.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.18362.19": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.18362.18",
+            "fileVersion": "10.0.18362.19"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.1.35982"
+          }
+        }
+      },
+      "Autofac/6.0.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/7.1.0": {
+        "dependencies": {
+          "Autofac": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        }
+      },
+      "AutoMapper.Collection/7.0.1": {
+        "dependencies": {
+          "AutoMapper": "10.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Collection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1.0"
+          }
+        }
+      },
+      "FluentWPF/0.9.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/FluentWPF.dll": {
+            "assemblyVersion": "0.9.0.1",
+            "fileVersion": "0.9.0.1"
+          }
+        }
+      },
+      "MaterialDesignColors/2.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.0.0.2422",
+            "fileVersion": "2.0.0.2422"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.0.0": {
+        "dependencies": {
+          "MaterialDesignColors": "2.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.0.0.2422",
+            "fileVersion": "4.0.0.2422"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Data.Sqlite.Core/5.0.5": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.1.6.0",
+            "fileVersion": "3.100.620.31604"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/5.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.5",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.5",
+          "Microsoft.Extensions.Caching.Memory": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.5": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.5": {},
+      "Microsoft.EntityFrameworkCore.Relational/5.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite/5.0.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "5.0.5",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.4"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/5.0.5": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "5.0.5",
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
+          "Microsoft.Extensions.DependencyModel": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Sqlite.dll": {
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.120.57516"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "ModernWpfUI/0.9.4": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.Controls.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          },
+          "lib/net5.0-windows10.0.18362.0/ModernWpf.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0-windows10.0.18362.0/af-ZA/ModernWpf.Controls.resources.dll": {
+            "locale": "af-ZA"
+          },
+          "lib/net5.0-windows10.0.18362.0/af-ZA/ModernWpf.resources.dll": {
+            "locale": "af-ZA"
+          },
+          "lib/net5.0-windows10.0.18362.0/am-ET/ModernWpf.Controls.resources.dll": {
+            "locale": "am-ET"
+          },
+          "lib/net5.0-windows10.0.18362.0/am-ET/ModernWpf.resources.dll": {
+            "locale": "am-ET"
+          },
+          "lib/net5.0-windows10.0.18362.0/ar-SA/ModernWpf.Controls.resources.dll": {
+            "locale": "ar-SA"
+          },
+          "lib/net5.0-windows10.0.18362.0/ar-SA/ModernWpf.resources.dll": {
+            "locale": "ar-SA"
+          },
+          "lib/net5.0-windows10.0.18362.0/az-Latn-AZ/ModernWpf.Controls.resources.dll": {
+            "locale": "az-Latn-AZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/az-Latn-AZ/ModernWpf.resources.dll": {
+            "locale": "az-Latn-AZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/be-BY/ModernWpf.Controls.resources.dll": {
+            "locale": "be-BY"
+          },
+          "lib/net5.0-windows10.0.18362.0/be-BY/ModernWpf.resources.dll": {
+            "locale": "be-BY"
+          },
+          "lib/net5.0-windows10.0.18362.0/bg-BG/ModernWpf.Controls.resources.dll": {
+            "locale": "bg-BG"
+          },
+          "lib/net5.0-windows10.0.18362.0/bg-BG/ModernWpf.resources.dll": {
+            "locale": "bg-BG"
+          },
+          "lib/net5.0-windows10.0.18362.0/bn-BD/ModernWpf.Controls.resources.dll": {
+            "locale": "bn-BD"
+          },
+          "lib/net5.0-windows10.0.18362.0/bn-BD/ModernWpf.resources.dll": {
+            "locale": "bn-BD"
+          },
+          "lib/net5.0-windows10.0.18362.0/bs-Latn-BA/ModernWpf.Controls.resources.dll": {
+            "locale": "bs-Latn-BA"
+          },
+          "lib/net5.0-windows10.0.18362.0/bs-Latn-BA/ModernWpf.resources.dll": {
+            "locale": "bs-Latn-BA"
+          },
+          "lib/net5.0-windows10.0.18362.0/ca-ES/ModernWpf.Controls.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/ca-ES/ModernWpf.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/cs-CZ/ModernWpf.Controls.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/cs-CZ/ModernWpf.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/da-DK/ModernWpf.Controls.resources.dll": {
+            "locale": "da-DK"
+          },
+          "lib/net5.0-windows10.0.18362.0/da-DK/ModernWpf.resources.dll": {
+            "locale": "da-DK"
+          },
+          "lib/net5.0-windows10.0.18362.0/de-DE/ModernWpf.Controls.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net5.0-windows10.0.18362.0/de-DE/ModernWpf.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net5.0-windows10.0.18362.0/el-GR/ModernWpf.Controls.resources.dll": {
+            "locale": "el-GR"
+          },
+          "lib/net5.0-windows10.0.18362.0/el-GR/ModernWpf.resources.dll": {
+            "locale": "el-GR"
+          },
+          "lib/net5.0-windows10.0.18362.0/en-GB/ModernWpf.Controls.resources.dll": {
+            "locale": "en-GB"
+          },
+          "lib/net5.0-windows10.0.18362.0/en-GB/ModernWpf.resources.dll": {
+            "locale": "en-GB"
+          },
+          "lib/net5.0-windows10.0.18362.0/es-ES/ModernWpf.Controls.resources.dll": {
+            "locale": "es-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/es-ES/ModernWpf.resources.dll": {
+            "locale": "es-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/es-MX/ModernWpf.Controls.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net5.0-windows10.0.18362.0/es-MX/ModernWpf.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net5.0-windows10.0.18362.0/et-EE/ModernWpf.Controls.resources.dll": {
+            "locale": "et-EE"
+          },
+          "lib/net5.0-windows10.0.18362.0/et-EE/ModernWpf.resources.dll": {
+            "locale": "et-EE"
+          },
+          "lib/net5.0-windows10.0.18362.0/eu-ES/ModernWpf.Controls.resources.dll": {
+            "locale": "eu-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/eu-ES/ModernWpf.resources.dll": {
+            "locale": "eu-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/fa-IR/ModernWpf.Controls.resources.dll": {
+            "locale": "fa-IR"
+          },
+          "lib/net5.0-windows10.0.18362.0/fa-IR/ModernWpf.resources.dll": {
+            "locale": "fa-IR"
+          },
+          "lib/net5.0-windows10.0.18362.0/fi-FI/ModernWpf.Controls.resources.dll": {
+            "locale": "fi-FI"
+          },
+          "lib/net5.0-windows10.0.18362.0/fi-FI/ModernWpf.resources.dll": {
+            "locale": "fi-FI"
+          },
+          "lib/net5.0-windows10.0.18362.0/fr-CA/ModernWpf.Controls.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/net5.0-windows10.0.18362.0/fr-CA/ModernWpf.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/net5.0-windows10.0.18362.0/fr-FR/ModernWpf.Controls.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/net5.0-windows10.0.18362.0/fr-FR/ModernWpf.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/net5.0-windows10.0.18362.0/gl-ES/ModernWpf.Controls.resources.dll": {
+            "locale": "gl-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/gl-ES/ModernWpf.resources.dll": {
+            "locale": "gl-ES"
+          },
+          "lib/net5.0-windows10.0.18362.0/ha-Latn-NG/ModernWpf.Controls.resources.dll": {
+            "locale": "ha-Latn-NG"
+          },
+          "lib/net5.0-windows10.0.18362.0/ha-Latn-NG/ModernWpf.resources.dll": {
+            "locale": "ha-Latn-NG"
+          },
+          "lib/net5.0-windows10.0.18362.0/he-IL/ModernWpf.Controls.resources.dll": {
+            "locale": "he-IL"
+          },
+          "lib/net5.0-windows10.0.18362.0/he-IL/ModernWpf.resources.dll": {
+            "locale": "he-IL"
+          },
+          "lib/net5.0-windows10.0.18362.0/hi-IN/ModernWpf.Controls.resources.dll": {
+            "locale": "hi-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/hi-IN/ModernWpf.resources.dll": {
+            "locale": "hi-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/hr-HR/ModernWpf.Controls.resources.dll": {
+            "locale": "hr-HR"
+          },
+          "lib/net5.0-windows10.0.18362.0/hr-HR/ModernWpf.resources.dll": {
+            "locale": "hr-HR"
+          },
+          "lib/net5.0-windows10.0.18362.0/hu-HU/ModernWpf.Controls.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "lib/net5.0-windows10.0.18362.0/hu-HU/ModernWpf.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "lib/net5.0-windows10.0.18362.0/id-ID/ModernWpf.Controls.resources.dll": {
+            "locale": "id-ID"
+          },
+          "lib/net5.0-windows10.0.18362.0/id-ID/ModernWpf.resources.dll": {
+            "locale": "id-ID"
+          },
+          "lib/net5.0-windows10.0.18362.0/is-IS/ModernWpf.Controls.resources.dll": {
+            "locale": "is-IS"
+          },
+          "lib/net5.0-windows10.0.18362.0/is-IS/ModernWpf.resources.dll": {
+            "locale": "is-IS"
+          },
+          "lib/net5.0-windows10.0.18362.0/it-IT/ModernWpf.Controls.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net5.0-windows10.0.18362.0/it-IT/ModernWpf.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net5.0-windows10.0.18362.0/ja-JP/ModernWpf.Controls.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0-windows10.0.18362.0/ja-JP/ModernWpf.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0-windows10.0.18362.0/ka-GE/ModernWpf.Controls.resources.dll": {
+            "locale": "ka-GE"
+          },
+          "lib/net5.0-windows10.0.18362.0/ka-GE/ModernWpf.resources.dll": {
+            "locale": "ka-GE"
+          },
+          "lib/net5.0-windows10.0.18362.0/kk-KZ/ModernWpf.Controls.resources.dll": {
+            "locale": "kk-KZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/kk-KZ/ModernWpf.resources.dll": {
+            "locale": "kk-KZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/km-KH/ModernWpf.Controls.resources.dll": {
+            "locale": "km-KH"
+          },
+          "lib/net5.0-windows10.0.18362.0/km-KH/ModernWpf.resources.dll": {
+            "locale": "km-KH"
+          },
+          "lib/net5.0-windows10.0.18362.0/kn-IN/ModernWpf.Controls.resources.dll": {
+            "locale": "kn-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/kn-IN/ModernWpf.resources.dll": {
+            "locale": "kn-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/ko-KR/ModernWpf.Controls.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net5.0-windows10.0.18362.0/ko-KR/ModernWpf.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net5.0-windows10.0.18362.0/lo-LA/ModernWpf.Controls.resources.dll": {
+            "locale": "lo-LA"
+          },
+          "lib/net5.0-windows10.0.18362.0/lo-LA/ModernWpf.resources.dll": {
+            "locale": "lo-LA"
+          },
+          "lib/net5.0-windows10.0.18362.0/lt-LT/ModernWpf.Controls.resources.dll": {
+            "locale": "lt-LT"
+          },
+          "lib/net5.0-windows10.0.18362.0/lt-LT/ModernWpf.resources.dll": {
+            "locale": "lt-LT"
+          },
+          "lib/net5.0-windows10.0.18362.0/lv-LV/ModernWpf.Controls.resources.dll": {
+            "locale": "lv-LV"
+          },
+          "lib/net5.0-windows10.0.18362.0/lv-LV/ModernWpf.resources.dll": {
+            "locale": "lv-LV"
+          },
+          "lib/net5.0-windows10.0.18362.0/mk-MK/ModernWpf.Controls.resources.dll": {
+            "locale": "mk-MK"
+          },
+          "lib/net5.0-windows10.0.18362.0/mk-MK/ModernWpf.resources.dll": {
+            "locale": "mk-MK"
+          },
+          "lib/net5.0-windows10.0.18362.0/ml-IN/ModernWpf.Controls.resources.dll": {
+            "locale": "ml-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/ml-IN/ModernWpf.resources.dll": {
+            "locale": "ml-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/ms-MY/ModernWpf.Controls.resources.dll": {
+            "locale": "ms-MY"
+          },
+          "lib/net5.0-windows10.0.18362.0/ms-MY/ModernWpf.resources.dll": {
+            "locale": "ms-MY"
+          },
+          "lib/net5.0-windows10.0.18362.0/nb-NO/ModernWpf.Controls.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "lib/net5.0-windows10.0.18362.0/nb-NO/ModernWpf.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "lib/net5.0-windows10.0.18362.0/nl-NL/ModernWpf.Controls.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "lib/net5.0-windows10.0.18362.0/nl-NL/ModernWpf.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "lib/net5.0-windows10.0.18362.0/nn-NO/ModernWpf.Controls.resources.dll": {
+            "locale": "nn-NO"
+          },
+          "lib/net5.0-windows10.0.18362.0/nn-NO/ModernWpf.resources.dll": {
+            "locale": "nn-NO"
+          },
+          "lib/net5.0-windows10.0.18362.0/pl-PL/ModernWpf.Controls.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "lib/net5.0-windows10.0.18362.0/pl-PL/ModernWpf.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "lib/net5.0-windows10.0.18362.0/pt-BR/ModernWpf.Controls.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows10.0.18362.0/pt-BR/ModernWpf.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows10.0.18362.0/pt-PT/ModernWpf.Controls.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/net5.0-windows10.0.18362.0/pt-PT/ModernWpf.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/net5.0-windows10.0.18362.0/ro-RO/ModernWpf.Controls.resources.dll": {
+            "locale": "ro-RO"
+          },
+          "lib/net5.0-windows10.0.18362.0/ro-RO/ModernWpf.resources.dll": {
+            "locale": "ro-RO"
+          },
+          "lib/net5.0-windows10.0.18362.0/ru-RU/ModernWpf.Controls.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "lib/net5.0-windows10.0.18362.0/ru-RU/ModernWpf.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "lib/net5.0-windows10.0.18362.0/sk-SK/ModernWpf.Controls.resources.dll": {
+            "locale": "sk-SK"
+          },
+          "lib/net5.0-windows10.0.18362.0/sk-SK/ModernWpf.resources.dll": {
+            "locale": "sk-SK"
+          },
+          "lib/net5.0-windows10.0.18362.0/sl-SI/ModernWpf.Controls.resources.dll": {
+            "locale": "sl-SI"
+          },
+          "lib/net5.0-windows10.0.18362.0/sl-SI/ModernWpf.resources.dll": {
+            "locale": "sl-SI"
+          },
+          "lib/net5.0-windows10.0.18362.0/sq-AL/ModernWpf.Controls.resources.dll": {
+            "locale": "sq-AL"
+          },
+          "lib/net5.0-windows10.0.18362.0/sq-AL/ModernWpf.resources.dll": {
+            "locale": "sq-AL"
+          },
+          "lib/net5.0-windows10.0.18362.0/sr-Latn-RS/ModernWpf.Controls.resources.dll": {
+            "locale": "sr-Latn-RS"
+          },
+          "lib/net5.0-windows10.0.18362.0/sr-Latn-RS/ModernWpf.resources.dll": {
+            "locale": "sr-Latn-RS"
+          },
+          "lib/net5.0-windows10.0.18362.0/sv-SE/ModernWpf.Controls.resources.dll": {
+            "locale": "sv-SE"
+          },
+          "lib/net5.0-windows10.0.18362.0/sv-SE/ModernWpf.resources.dll": {
+            "locale": "sv-SE"
+          },
+          "lib/net5.0-windows10.0.18362.0/sw-KE/ModernWpf.Controls.resources.dll": {
+            "locale": "sw-KE"
+          },
+          "lib/net5.0-windows10.0.18362.0/sw-KE/ModernWpf.resources.dll": {
+            "locale": "sw-KE"
+          },
+          "lib/net5.0-windows10.0.18362.0/ta-IN/ModernWpf.Controls.resources.dll": {
+            "locale": "ta-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/ta-IN/ModernWpf.resources.dll": {
+            "locale": "ta-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/te-IN/ModernWpf.Controls.resources.dll": {
+            "locale": "te-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/te-IN/ModernWpf.resources.dll": {
+            "locale": "te-IN"
+          },
+          "lib/net5.0-windows10.0.18362.0/th-TH/ModernWpf.Controls.resources.dll": {
+            "locale": "th-TH"
+          },
+          "lib/net5.0-windows10.0.18362.0/th-TH/ModernWpf.resources.dll": {
+            "locale": "th-TH"
+          },
+          "lib/net5.0-windows10.0.18362.0/tr-TR/ModernWpf.Controls.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/net5.0-windows10.0.18362.0/tr-TR/ModernWpf.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/net5.0-windows10.0.18362.0/uk-UA/ModernWpf.Controls.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "lib/net5.0-windows10.0.18362.0/uk-UA/ModernWpf.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "lib/net5.0-windows10.0.18362.0/uz-Latn-UZ/ModernWpf.Controls.resources.dll": {
+            "locale": "uz-Latn-UZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/uz-Latn-UZ/ModernWpf.resources.dll": {
+            "locale": "uz-Latn-UZ"
+          },
+          "lib/net5.0-windows10.0.18362.0/vi-VN/ModernWpf.Controls.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "lib/net5.0-windows10.0.18362.0/vi-VN/ModernWpf.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-CN/ModernWpf.Controls.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-CN/ModernWpf.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-TW/ModernWpf.Controls.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net5.0-windows10.0.18362.0/zh-TW/ModernWpf.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "MvvmLight/5.4.1.1": {},
+      "MvvmLightLibs/5.4.1.1": {
+        "runtime": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/GalaSoft.MvvmLight.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          },
+          "lib/net45/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
+      "PDFsharp/1.50.5147": {
+        "runtime": {
+          "lib/net20/PdfSharp.Charting.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          },
+          "lib/net20/PdfSharp.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          }
+        },
+        "resources": {
+          "lib/net20/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
+          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          },
+          "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "rid": "alpine-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "rid": "linux-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "rid": "linux-mips64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "System.Collections.Immutable/5.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Diagnostics.DiagnosticSource/5.0.1": {
+        "runtime": {
+          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.220.61120"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.421.11614"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Text.Encoding.CodePages/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "WpfAnimatedGif/2.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "BusinessEntities/1.0.0": {
+        "runtime": {
+          "BusinessEntities.dll": {}
+        }
+      },
+      "BusinessServices/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "BusinessEntities": "1.0.0",
+          "DataAccessInterfaces": "1.0.0"
+        },
+        "runtime": {
+          "BusinessServices.dll": {}
+        }
+      },
+      "DataAccessInterfaces/1.0.0": {
+        "dependencies": {
+          "BusinessEntities": "1.0.0"
+        },
+        "runtime": {
+          "DataAccessInterfaces.dll": {}
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "BusinessEntities": "1.0.0",
+          "DataAccessInterfaces": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.5"
+        },
+        "runtime": {
+          "DataAccessLayer.dll": {}
+        }
+      },
+      "Launcher/1.0.0": {
+        "dependencies": {
+          "AutoMapper.Collection": "7.0.1",
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "DataAccessLayer": "1.0.0",
+          "ModernWpfUI": "0.9.4",
+          "PdfGenerator": "1.0.0",
+          "Presentation": "1.0.0"
+        },
+        "runtime": {
+          "Launcher.dll": {}
+        }
+      },
+      "PdfGenerator/1.0.0": {
+        "dependencies": {
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "DataAccessInterfaces": "1.0.0",
+          "PDFsharp": "1.50.5147",
+          "System.Drawing.Common": "5.0.2",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "PdfGenerator.dll": {}
+        }
+      },
+      "Presentation/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "BusinessEntities": "1.0.0",
+          "BusinessServices": "1.0.0",
+          "FluentWPF": "0.9.0",
+          "MaterialDesignThemes": "4.0.0",
+          "ModernWpfUI": "0.9.4",
+          "MvvmLight": "5.4.1.1",
+          "MvvmLightLibs": "5.4.1.1",
+          "WpfAnimatedGif": "2.0.0"
+        },
+        "runtime": {
+          "Presentation.dll": {}
+        }
+      },
+      "TestData/1.0.0": {
+        "dependencies": {
+          "DataAccessLayer": "1.0.0"
+        },
+        "runtime": {
+          "TestData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestDataProvider/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.18362.19": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tRVRXGxwXbQmPy1ZGso115O55ffVW4mWtufjOy7hduQ1BNVR1j7RQQjxpYuB6tJw5OrgqRWYVJLJ8RwYNz/j+A==",
+      "path": "autofac/6.0.0",
+      "hashPath": "autofac.6.0.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nm6rZREZ9tjdKXu9cmT69zHkZODagjCPlRRCOhiS1VqFFis9LQnMl18L4OYr8yfCW1WAQkFDD2CNaK/kF5Eqeg==",
+      "path": "autofac.extensions.dependencyinjection/7.1.0",
+      "hashPath": "autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512"
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "AutoMapper.Collection/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pcdIsq7qj/bpcttVLIvbiDN3HHRGcPyW3BdzVuLS120tq/VNZxWg7PxMuTNTviC8iK8bptwuNHTKhCfYSP4dpQ==",
+      "path": "automapper.collection/7.0.1",
+      "hashPath": "automapper.collection.7.0.1.nupkg.sha512"
+    },
+    "FluentWPF/0.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h8AUlCSOg11477H6fRSM30mxqdX3/ETu1Ksso2fuLrCD7rHK2TZPma2SuQHMcidsFq5GJZe1BkKbPdkKoTeAUQ==",
+      "path": "fluentwpf/0.9.0",
+      "hashPath": "fluentwpf.0.9.0.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+JoghC3QRK0u9Wul1To1ORjcfTbFTVzFPjJ02H7VREOdNzIIn427e8G9gP9hXu9pm1r2OneLnoCG/lTma5cG2w==",
+      "path": "materialdesigncolors/2.0.0",
+      "hashPath": "materialdesigncolors.2.0.0.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+n5oWHuRiYL/gUw2XfQHCRZqHtU8KbrdurgU0IcO98Zsyhw4BvggodfXY8veRtbjjmM9EJ/sG2yKBrgPOGX4JQ==",
+      "path": "materialdesignthemes/4.0.0",
+      "hashPath": "materialdesignthemes.4.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite.Core/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tFKcgzzk3495LzD38gw75qmFS6Y1lDr5O9TGfSSG8GgtYF2G5VuTp7VdkeHKaaKOOgrSgHjuc3ogyWh7TZ10Hg==",
+      "path": "microsoft.data.sqlite.core/5.0.5",
+      "hashPath": "microsoft.data.sqlite.core.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lBIGKXhduT94Qats0ImMma9NWnsSLhz04JdD+Mi7DeCDPd3hiA668jREzCiLb9FqcmAIrLx8pxIo9cwjEHfYtQ==",
+      "path": "microsoft.entityframeworkcore/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jS7+hySzNS9wCmREbWTVaa5EA+aLT7wb1Si1jhMgAiGrbLQSj6wPnS8WbhO5a7iAq45pDEK0KghtrPDFjfTxVw==",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-czVyD5h0etXlrFHln0GPwlhmNm4yFe8vA/xfW/oN26OT8AAWkA6YPjr+z68/kmPqMWFo8UHxvDBZ9g2TiJY9qQ==",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D+9me6olfUKpti0WkMFsKk9T4uTPZ+3mg/NIwq1Fhp/qQAu9yg2FZTUa0O8ugGuiGyJHfi8tMvh+iCL0LTpG4g==",
+      "path": "microsoft.entityframeworkcore.relational/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H6I/1bRafr7RFMpLg62Nje+8uRo7E1amm5IBYAO8KJo6YOwwS/FGNGD2ZjT9Jf28WEo2ahvHH4isqYkvDJRKiw==",
+      "path": "microsoft.entityframeworkcore.sqlite/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/5.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jo1QTSGpeMBJnjLhpD6aWqrMWOFI6qFurnm4v05qMJjkosfBNrXkEMu7YF5szLCXspoEsmHDej5CE44vPAYByw==",
+      "path": "microsoft.entityframeworkcore.sqlite.core/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.core.5.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bu8As90/SBAouMZ6fJ+qRNo1X+KgHGrVueFhhYi+E5WqEhcnp2HoWRFnMzXQ6g4RdZbvPowFerSbKNH4Dtg5yg==",
+      "path": "microsoft.extensions.caching.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/1qPCleFOkJe0O+xmFqCNLFYQZTJz965sVw8CUB/BQgsApBwzAUsL2BUkDvQW+geRUVTXUS9zLa0pBjC2VJ1gA==",
+      "path": "microsoft.extensions.caching.memory/5.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-umBECCoMC+sOUgm083yFr8SxTobUOcPFH4AXigdO2xJiszCHAnmeDl4qPphJt+oaJ/XIfV1wOjIts2nRnki61Q==",
+      "path": "microsoft.extensions.dependencymodel/5.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
+      "path": "microsoft.extensions.logging/5.0.0",
+      "hashPath": "microsoft.extensions.logging.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "path": "microsoft.extensions.options/5.0.0",
+      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "ModernWpfUI/0.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HJ07Be9KOiGKGcMLz/AwY+84h3yGHRPuYpYXCE6h1yPtaFwGMWfanZ70jX7W5XWx8+Qk1vGox+WGKgxxsy6EHw==",
+      "path": "modernwpfui/0.9.4",
+      "hashPath": "modernwpfui.0.9.4.nupkg.sha512"
+    },
+    "MvvmLight/5.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fTUDMWT//ChZGd7Q5k0IaJuIXgh+FM43pCStxup7kgh1MQXvC48CjpjWkp5Auru/YXhHOJOMgD1NdtFZgn6K2g==",
+      "path": "mvvmlight/5.4.1.1",
+      "hashPath": "mvvmlight.5.4.1.1.nupkg.sha512"
+    },
+    "MvvmLightLibs/5.4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
+      "path": "mvvmlightlibs/5.4.1.1",
+      "hashPath": "mvvmlightlibs.5.4.1.1.nupkg.sha512"
+    },
+    "PDFsharp/1.50.5147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vr5KBIqcXu2hqZ43UTwPR+jqHgMrT5tsPtJvEF+mORKoBNMh3bRWgAwic0U1sT2IVb4PR5m0GyQxnmCz8jBHWg==",
+      "path": "pdfsharp/1.50.5147",
+      "hashPath": "pdfsharp.1.50.5147.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f5U8Sw0lRym8tTraJ2zm6OqcDrcrEVvcKDtYlKSLs3Ox9SerkwkPXiFXb/uiW0g2tJdUw6oBhsxI/l5DoRxXMg==",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "path": "sqlitepclraw.core/2.0.4",
+      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
+      "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
+      "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
+    },
+    "System.Collections.Immutable/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
+      "path": "system.collections.immutable/5.0.0",
+      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uXQEYqav2V3zP6OwkOKtLv+qIi6z3m1hsGyKwXX7ZA7htT4shoVccGxnJ9kVRFPNAsi1ArZTq2oh7WOto6GbkQ==",
+      "path": "system.diagnostics.diagnosticsource/5.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "path": "system.drawing.common/5.0.2",
+      "hashPath": "system.drawing.common.5.0.2.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
+      "path": "system.text.encoding.codepages/5.0.0",
+      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
+    },
+    "WpfAnimatedGif/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z468xEqg+MSSW30BkbIcwoCQ9E0GiRQxU6L9qYCUmP28fQ79Dq4QSakWm3Dfw8CoRY3xLl3gf1xRfqILSs6/mw==",
+      "path": "wpfanimatedgif/2.0.0",
+      "hashPath": "wpfanimatedgif.2.0.0.nupkg.sha512"
+    },
+    "BusinessEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccessInterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Launcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PdfGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
